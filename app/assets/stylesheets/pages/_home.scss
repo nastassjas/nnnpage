@@ -1,1 +1,68 @@
-// Specific CSS for your home-page
+.videobanner {
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  margin-left: 25px;
+}
+
+body {
+  margin: 28px;
+}
+
+.navbar {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 32px;
+}
+
+.linksto a {
+  text-align: center;
+  margin-right: 20px;
+
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 50px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

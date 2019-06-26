@@ -3,7 +3,6 @@ class PagesController < ApplicationController
   end
 
   def gallery
-
   end
 
   def contact
@@ -11,5 +10,4 @@ class PagesController < ApplicationController
 
   def about
   end
-
 end

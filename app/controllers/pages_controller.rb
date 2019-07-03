@@ -2,10 +2,13 @@ class PagesController < ApplicationController
   def home
   end
 
-  def gallery
+  def paintings
   end
 
-  def contact
+  def videos
+  end
+
+  def books
   end
 
   def about

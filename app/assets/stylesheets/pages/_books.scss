@@ -1,1 +1,21 @@
 
+.row-books {
+  display: flex;
+
+}
+
+.column-books {
+  background-color: white;
+  flex: 33.33%;
+  padding: 20px;
+
+}
+.column-books img {
+  width: 438px;
+  height: 326px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+
+}
